@@ -1,0 +1,126 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+:root {
+  --dark-blue: hsl(233, 26%, 24%);
+  --lime-green: hsl(136, 65%, 51%);
+  --bright-cyan: hsl(192, 70%, 51%);
+  --grayish-blue: hsl(233, 8%, 62%);
+  --light-grayish-blue: hsl(220, 16%, 96%);
+  --very-light-gray: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+}
+
+
+body {
+  font-family: 'Public Sans', sans-serif;;
+  font-size: 18px;
+  background-color: var(--very-light-gray, hsl(0, 0%, 98%)) !important;
+}
+
+p, small {
+  color: var(--grayish-blue, hsl(233, 8%, 62%)) !important;
+}
+
+
+@media (max-width: 375px) {
+
+}
+
+.bg-light {
+  background-color: var(--white, white) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--grayish-blue, hsl(233, 8%, 62%)) !important;
+}
+
+.call-to-action {
+  background: linear-gradient(90deg, var(--lime-green, hsl(136, 65%, 51%) 0%), var(--bright-cyan, hsl(192, 70%, 51%)) 75%) !important;
+  border-radius: 25px;
+  width: 10rem;
+  color: var(--white, white);
+  font-weight: bold;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
+
+@media (max-width: 576px) {
+  .action-form {
+    display: none;
+  }
+
+  .jumbotron-fluid .display-4 {
+    font-size: 2.9rem !important;
+  }
+  .intro-col-1 {
+    top: -10rem;
+  }
+  .intro-col-2 {
+    display: none;
+  }
+  .intro-col-mobile {
+    background: url("../images/bg-intro-mobile.svg");
+    background-size: cover;
+    height: 25rem;
+  }
+}
+
+@media (min-width: 577px) {
+  .intro-col-2 {
+    background: url("../images/bg-intro-desktop.svg");
+    background-size: cover;
+  }
+  .intro-col-mobile {
+    display: none;
+  }
+}
+
+.features {
+  background-color: var(--light-grayish-blue, hsl(220, 16%, 96%)) !important;
+}
+
+.features .card {
+  border: none;
+  background-color: var(--light-grayish-blue, hsl(220, 16%, 96%)) !important;
+}
+
+.features .card-img-top {
+  width: 30% !important;
+}
+
+.articles .card {
+  border: none;
+}
+
+.articles .card-body {
+  padding: 0px !important;
+}
+
+.article-author {
+  font-size: 10px;
+}
+
+.article-title {
+  color: black !important;
+}
+
+footer {
+  background-color: var(--dark-blue, hsl(233, 26%, 24%));
+  color: var(--white, white);
+}
+
+footer ul {
+  padding: 0px;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--white, white);
+}
+
+.social-div ul {
+  display: flex;
+}
