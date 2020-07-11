@@ -1,6 +1,6 @@
 # Frontend Mentor - Easybank landing page - My solution
 
-Click [Here](https://nejmehjarjoura.github.io/easybank-landing-page/) to see page.
+Click [Here](https://nejmehjarjoura.github.io/easybank-landing-page) to see page.
 
 ![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
 
